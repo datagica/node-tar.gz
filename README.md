@@ -1,4 +1,7 @@
-# tar.gz
+# @datagica/targz
+
+DISCLAIMER: it is a fork because the original name "tar.gz" causes issues with some packages managers
+
 [![Coverage Status](https://coveralls.io/repos/alanhoff/node-tar.gz/badge.svg?branch=master)][0]
 [![Travis](https://travis-ci.org/alanhoff/node-tar.gz.svg)][1]
 [![Dependencies](https://david-dm.org/alanhoff/node-tar.gz.svg)][2]
@@ -12,7 +15,7 @@ a gzipped tarball.
 
 ```javascript
 var fs = require('fs');
-var targz = require('tar.gz');
+var targz = require('@datagica/targz');
 
 // Create all streams that we need
 var read = targz().createReadStream('/some/directory');
@@ -27,7 +30,7 @@ directory.
 
 ```javascript
 var request = require('request');
-var targz = require('tar.gz');
+var targz = require('@datagica/targz');
 
 // Streams
 var read = request.get('https://nodejs.org/dist/v0.12.7/node-v0.12.7.tar.gz');
@@ -41,7 +44,7 @@ parsed .
 
 ```javascript
 var request = require('request');
-var targz = require('tar.gz');
+var targz = require('@datagica/targz');
 
 // Streams
 var read = request.get('https://nodejs.org/dist/v0.12.7/node-v0.12.7.tar.gz');
@@ -141,7 +144,7 @@ Options:
 ### Testing
 
 ```bash
-git clone git@github.com:alanhoff/node-tar.gz.git
+git clone git@github.com:@datagica/targz.git
 cd node-tar.gz
 npm install && npm test
 ```
