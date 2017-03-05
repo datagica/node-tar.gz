@@ -1,5 +1,5 @@
 {
-  "name": "tar.gz",
+  "name": "@datagica/targz",
   "version": "1.0.5",
   "description": "Pure javascript tarball tools for Node.js",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alanhoff/node-tar.gz.git"
+    "url": "git+https://github.com/datagica/targz.git"
   },
   "keywords": [
     "compression",
@@ -28,12 +28,12 @@
   "author": "Alan Hoffmeister <alanhoffmeister@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alanhoff/node-tar.gz/issues"
+    "url": "https://github.com/@datagica/targz/issues"
   },
   "bin": {
     "targz": "bin/targz"
   },
-  "homepage": "https://github.com/alanhoff/node-tar.gz#readme",
+  "homepage": "https://github.com/@datagica/targz#readme",
   "dependencies": {
     "bluebird": "^2.9.34",
     "commander": "^2.8.1",
